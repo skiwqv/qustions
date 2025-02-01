@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./fav.png" />
+
+    <!-- Title -->
+    <title>ТОП 10 загадочных природных явлений – Необычные феномены</title>
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Откройте для себя ТОП 10 самых загадочных природных явлений, которые удивляют своей редкостью и уникальностью. Фото, видео и интересные факты!"
+    />
+
+    <!-- Keywords (не так важны для SEO, но можно добавить) -->
+    <meta
+      name="keywords"
+      content="природные явления, загадочные феномены, редкие природные явления, необычные феномены, тайны природы"
+    />
+
+    <!-- Author -->
+    <meta name="author" content="Имя автора или название сайта" />
+
+    <!-- Open Graph (для Facebook и соцсетей) -->
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="ТОП 10 загадочных природных явлений – Необычные феномены"
+    />
+    <meta
+      property="og:description"
+      content="Удивительные природные явления, которые сложно объяснить. Редкие атмосферные эффекты, огненные торнадо, световые столбы и многое другое!"
+    />
+    <meta property="og:image" content="https://example.com/preview.jpg" />
+    <meta property="og:url" content="https://example.com/article" />
+    <meta property="og:site_name" content="Название сайта" />
+
+    <!-- Twitter Cards (для Twitter) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ТОП 10 загадочных природных явлений" />
+    <meta
+      name="twitter:description"
+      content="Рассматриваем самые редкие и загадочные природные явления. Подробности, фото и видео!"
+    />
+    <meta name="twitter:image" content="https://example.com/preview.jpg" />
+    <meta name="twitter:site" content="@yourtwitterhandle" />
+
+    <!-- Canonical URL (если есть дубли страниц) -->
+    <link rel="canonical" href="https://example.com/article" />
+
+    <!-- Robots (индексация поисковиками) -->
+    <meta name="robots" content="index, follow" />
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
