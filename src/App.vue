@@ -6,6 +6,8 @@
       вопрос.
     </p>
     <img src="./assets/rimg.jpg" alt="Random Image" title="random image" />
+    <img src="./assets/image.png" alt="Random Image" title="random image" />
+    <img src="./assets/laalal.png" alt="Random Image" title="random image" />
   </div>
 
   <div v-if="visible" class="overlay">
